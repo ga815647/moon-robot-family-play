@@ -1,15 +1,15 @@
 # 月亮機器人親子遊戲
 
-一份可直接貼入 ChatGPT Project 的繁體中文語音遊戲主持指令，供成人陪同約5歲孩子使用。主持人主動提供想像素材與小情節，孩子可以只聽、玩聲音或說一個詞；明確拒絕、安靜及正在講述時仍優先尊重。
+由GitHub維護的繁體中文親子語音遊戲：完整Project指令、素材庫、四個skills與可選MCP已整合為Plugin，供成人陪同約5歲孩子使用。主持人主動提供想像素材與小情節，孩子可以只聽、玩聲音或說一個詞；明確拒絕、安靜及正在講述時仍優先尊重。
 
 ## 使用與更新
 
-1. 開啟 [完整專案指令](PROJECT_INSTRUCTIONS.md)，複製全文，取代 Project 原有指令。
-2. 由家長陪同開始語音遊戲。可以說「月亮，開場吧」，也可直接接續目前活動。
-3. 可將 [STORY_MATERIALS.txt](STORY_MATERIALS.txt) 上傳Project來源，擴充素材；沒有上傳仍可使用指令內的小素材庫。
-4. 未來在這個repo維護新版；更新後查看差異及[模擬對照](docs/simulated-dialogues.md)、[故事長度與素材檢查](docs/materials-and-story-length-checks.md)，再由家長同步指令及素材檔。
+1. 先看[Plugin架構與入口差異](docs/plugin-architecture.md)。已安裝且確認當前聊天能載入skills時，可用[精簡Project入口](PROJECT_PLUGIN_INSTRUCTIONS.md)；尚未確認手機語音支援時，使用[完整專案指令](PROJECT_INSTRUCTIONS.md)。
+2. Plugin包含主持、共同敘事、睡前及家長回顧四個skills，以及現有唯讀素材MCP。由家長在新聊天選用Plugin，再開始遊戲；可以說「月亮，開場吧」。
+3. Plugin內已附素材。完整指令模式可另上傳[STORY_MATERIALS.txt](STORY_MATERIALS.txt)；未讀到仍可使用內建小素材庫。
+4. 未來在此repo維護來源，產生並更新同一Plugin；原始碼、套件、打包檢查均可追溯。沒有改動遠端Project設定，切換入口仍由家長查看差異後處理。
 
-目前指令與素材說明版本：1.3.0，2026年10月18日。來源連結不會自動同步指令或上傳素材。基本遊戲使用已貼入的全文，不依賴即時搜尋、自行架設RAG、安裝程式或付費附加服務。Project素材檔是可選擴充，不保證每回合讀入全檔；[Worker素材服務](docs/worker.md)提供可選的程式抽樣。Worker維持1.2.0，相同148項卡片；本次敘事引導在指令與素材示範中運作。
+目前指令、素材說明與Plugin版本：1.4.0，2026年10月18日。GitHub是維護來源，安裝Plugin是發行快照；push不會自動更新已安裝Plugin或既有聊天。基本遊戲不依賴即時搜尋、自行架設RAG或付費附加服務。[Worker素材服務](docs/worker.md)仍為1.2.0、相同148項卡片；語音對話中的Plugin載入仍需實測，不能只靠連結宣稱生效。
 
 ## 這份指令改了什麼
 
@@ -28,6 +28,9 @@
 | 檔案 | 用途 |
 | --- | --- |
 | [PROJECT_INSTRUCTIONS.md](PROJECT_INSTRUCTIONS.md) | 唯一正式版本，可一次複製貼上 |
+| [PROJECT_PLUGIN_INSTRUCTIONS.md](PROJECT_PLUGIN_INSTRUCTIONS.md) | 已確認Plugin可載入後使用的精簡Project入口與備援 |
+| [Plugin架構與維護](docs/plugin-architecture.md) | skills、MCP、安裝、來源分工、打包與同步界線 |
+| [Plugin套件](plugins/moon-robot-family-play/plugin.json) | 可重建的可安裝套件；由正式來源產生 |
 | [STORY_MATERIALS.txt](STORY_MATERIALS.txt) | 可上傳Project來源的原創素材庫 |
 | [研究與設計](docs/research-and-design.md) | GitHub 一手來源、機制改編、新舊差異、限制與維護方式 |
 | [隨機故事產生器](docs/random-story-generators.md) | Plot Generator、Tracery、Story Cubes等機制與適用方式 |

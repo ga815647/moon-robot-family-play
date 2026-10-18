@@ -1,0 +1,283 @@
+# 月亮機器人故事素材庫
+版本：1.4.0（2026-10-18）
+維護來源：https://github.com/ga815647/moon-robot-family-play
+用途：上傳這一份純文字檔到 ChatGPT Project 的來源檔。這是可挑選、改寫的原創遊戲素材，不取代專案指令，也不是故事必須照走的劇本。
+
+【使用方式】
+先在敘事中確認「誰／在哪裡／想做什麼／已出現什麼」，把它們當成已綁定的欄位。續講只補空缺；素材文字中的人物或道具可換成眼前已有者，不能把孩子已定的設定換掉。
+選一種B故事骨架，搭配M需求、R關係或E/H/T事件元素。把句子接成「因為…所以…結果…」的因果，不逐張報清單；角色的想法要用短台詞或動作演出。
+一般段落以畫面→角色反應→嘗試→小結果為主，未完的重要選擇留給孩子。骨架是靈感，不是必須走完的任務；孩子改編或拒絕時可跳過。
+新聊天開場或換新故事時，若此檔可供參考，先取與當前情境有關的少量素材；不必把全檔念出來，也不每回合重新讀整份。
+採用分類抽選、角色綁定與故事骨架：先固定已說清楚的角色、地點、物品與目標，再形成約10個候選，挑2～3個互補元素。開場可選人物、場景與需求；續講改選意外、關係或幽默；收尾只選回收與安穩結果。純文字選材不保證真正隨機，已啟用的素材Worker才會執行程式抽樣。
+近期約4段主持故事中，同一卡號與同笑點family暫不再抽；不同名字卻同一誤會也算重複。回收已有線索不算硬開新梗；孩子明確要求重演可再用，但被拒絕的內容仍撤下。標籤只是選材資訊，對孩子不念卡號或中括號。
+續集沿用已確定的人物、地點與目標，換一個動作、物品用途或笑點即可。不是每次都要重抽人物與地點。
+「月亮」幾乎一律是主持人或語音介面；這份素材裡的奇幻場景不能把孩子的呼喚變成天文題材。
+對孩子直接演故事，不報卡號、檢索結果、準備流程或分析。不假裝已讀到不可見的檔案內容。
+主持人帶故事通常4～7個短句；明確要完整故事可8～12句分成兩小段。孩子接一句、問知識、拒絕、停下或正在主講時，依專案指令縮短或停止。
+安全、孩子界線、已建立設定優先於任何素材。這些都是想像活動，不變成動火、爬高、獨自外出等現實操作。
+
+【C 人物 12項】
+C01 [tags=delivery,social;family=character-pig;energy=normal] 小豬包包｜想把事情做整齊，但尾巴常把剛排好的東西掃歪。認真說：「這次我站遠一點。」
+C02 [tags=repair,social;family=character-robot;energy=normal] 機器人叮豆｜喜歡照字面理解告示，會把「請坐」說給椅子聽。發現誤會後願意改方法。
+C03 [tags=nature,social;family=character-turtle;energy=normal] 烏龜阿慢｜走得慢，觀察得細；別人忽略的小標記常被牠發現。不拿速度嘲笑牠。
+C04 [tags=water,delivery;family=character-boat;energy=normal] 紙船小折｜很怕信件淋濕，替每封信準備葉子帽。嘴上說要省空間，自己卻戴最大頂。
+C05 [tags=travel,home;family=character-sock;energy=normal] 襪子跳跳｜習慣找另一半一起出門；這次學會一隻也能當小袋子。不把獨自一人演成可憐。
+C06 [tags=delivery,social;family=character-post;energy=normal] 小郵差米米｜記得每封信送誰，卻常把自己的點心放進郵袋。會先確認再拆包裹。
+C07 [tags=nature,bedtime;family=character-cloud;energy=normal] 雲朵棉棉｜一緊張就變成方形，放鬆後又圓回來。能當遮陽棚，不能當現實可踩的東西。
+C08 [tags=water,nature;family=character-duck;energy=normal] 小鴨嘎米｜擅長找水路，對陸地路標總有奇妙解釋。會說：「原來這個箭頭不用游！」
+C09 [tags=sound,repair;family=character-button;energy=normal] 鈕扣小圓｜想當門鈴，聲音卻是一小聲「喵」。很珍惜自己的兩個小洞。
+C10 [tags=home,repair;family=character-bear;energy=normal] 小熊口袋｜口袋放著許多有用小物，找東西前會先清空一個角落。每次只拿出一件，別變成萬能解法。
+C11 [tags=water,delivery;family=character-leaf;energy=normal] 葉子阿搖｜順風轉來轉去，夢想把一件小東西平穩送到岸邊。需要朋友配合時會開口求助。
+C12 [tags=repair,social;family=character-octopus;energy=normal] 小章魚墨墨｜想同時做太多事，最後願意一件一件來。吸盤會黏住自己的帽子，笑點對著情境。
+
+【P 場景 12項】
+P01 [tags=travel,delivery;family=place-station;energy=normal] 雲朵車站｜候車椅像一排棉花糖；列車靠站時車票會輕輕抖動。列車是想像交通工具。
+P02 [tags=home,sound;family=place-castle;energy=normal] 紙箱城堡｜門很小，門鈴很有禮貌；招牌會翻成不同圖案，但不偷偷改城堡位置。
+P03 [tags=water,delivery;family=place-port;energy=normal] 水窪港口｜小石頭當碼頭，葉子當遮陽棚；水面映出的東西可成為線索，不是假裝有另一個怪物。
+P04 [tags=delivery,nature;family=place-post;energy=normal] 樹洞郵局｜信件依圖案分格；空信封可以裝一個聲音，但不能裝走角色所有情緒。
+P05 [tags=home,bedtime;family=place-valley;energy=normal] 枕頭山谷｜路像被子摺痕，山坡有軟軟休息處；睡前可直接在此結束，不再加爬山任務。
+P06 [tags=nature,social;family=place-shadow;energy=normal] 影子廣場｜影子排隊跟主人做動作；雲經過時影子暫時變淡，角色不因此受傷或消失。
+P07 [tags=food,social;family=place-pudding;energy=normal] 迷你布丁店｜小匙當招牌、托盤當舞台；布丁晃動是故事設定，不宣稱真的布丁會說話。
+P08 [tags=nature,sound;family=place-garden;energy=normal] 雨傘花園｜每朵花像小傘，雨滴落下各有輕聲；只用想像描寫，不叫孩子跑到外面淋雨。
+P09 [tags=delivery,repair;family=place-bridge;energy=normal] 迴紋針橋｜橋能把兩張紙岸接起來；太大的包裹要改擺法，不能叫孩子碰尖銳物。
+P10 [tags=social,sound;family=place-theatre;energy=normal] 鈕扣戲院｜每個座位有不同圖案，開演前會先找到自己的座位。戲不必靠觀眾答題才能開始。
+P11 [tags=repair,home;family=place-repair;energy=normal] 輕聲修理店｜只修玩具般的奇幻小物；工具是想像用具，不教現實拆電器。
+P12 [tags=travel,food;family=place-bus;energy=normal] 點心公車｜座椅像餅乾紋路，但乘客不啃座椅；廣播員常把「下一站」念成一道菜。
+
+【E 小意外 16項】
+E01 [tags=delivery;family=direction;energy=normal] 地址倒著拿｜信封轉正後，路標終於對得上；角色自己可發現，不必每次考孩子。
+E02 [tags=nature;family=shadow;energy=normal] 影子先坐下｜主人還在找位置，影子已靠著椅腳；原來光從旁邊照過來，故事可保留擬人。
+E03 [tags=delivery;family=size;energy=normal] 包裹太寬｜不是硬擠，而是轉個方向；若孩子正在想辦法，不搶先給答案。
+E04 [tags=sound;family=wrong-sound;energy=normal] 門鈴只會喵｜角色以為有貓，門鈴自己不好意思地承認；不用突然大叫。
+E05 [tags=water;family=borrowed-use;energy=normal] 帽子當船篷｜找不到的東西正在替另一件東西遮陽；不是每次都用「原來在頭上」。
+E06 [tags=travel;family=direction;energy=normal] 座號和車票顛倒｜先比對一個明確圖案，再調整方向；不要把整段變成辨識測驗。
+E07 [tags=delivery;family=tangled;energy=normal] 小推車一直偏｜輪子上纏著一條緞帶；停下整理即可，不升級成追車危機。
+E08 [tags=food;family=sticky;energy=normal] 點心跟著湯匙站起來｜角色想讓湯匙坐下，卻搬來一張更小椅子；最後改用小盤接住。
+E09 [tags=delivery,nature;family=quiet-greeting;energy=calm] 信裡只有沙沙聲｜不是空白，而是一張葉子做的問候；聲音有來源可回收。
+E10 [tags=nature,sound;family=rhythm;energy=normal] 雨滴不肯落在同一拍｜角色先聽一聽，找到自己的節奏，不要求每個角色一模一樣。
+E11 [tags=travel;family=direction;energy=normal] 招牌方向反了｜大家繞了一圈又回到門口；轉正招牌後，路變清楚。
+E12 [tags=water;family=overprepare;energy=normal] 船帶了太多帽子｜先把多的帽子留在岸邊，不是要求角色丟掉最喜歡的東西。
+E13 [tags=social;family=literal;energy=normal] 椅子被當乘客｜機器人先替椅子找椅子，才發現自己多忙了一輪。
+E14 [tags=social;family=size;energy=normal] 禮物包得太小｜盒子合不上；可以改用布或紙袋，不把送禮變成競賽。
+E15 [tags=sound;family=echo;energy=normal] 回音接錯句｜只把尾音接成一個短笑點，不長篇重複每句話。
+E16 [tags=travel;family=clue;energy=normal] 地圖少一個角｜缺角上有小腳印，附近恰好能接回線索；不是突然出現全新任務。
+
+【G 小目標 12項】
+G01 [tags=delivery;family=goal-1;energy=normal] 把一封信送到已知收件人手上，送到就能收尾。
+G02 [tags=food,delivery;family=goal-2;energy=normal] 替布丁找到平穩的運送位置，不要求孩子做現實食物實驗。
+G03 [tags=travel,social;family=goal-3;energy=normal] 找到一個舒服的座位，不一定是最好、最大或第一名。
+G04 [tags=social;family=goal-4;energy=normal] 讓兩個角色順利交換一件物品，重點是講清楚彼此需要什麼。
+G05 [tags=travel;family=goal-5;energy=normal] 把一塊招牌擺回合適位置，讓後來的人看得懂。
+G06 [tags=repair;family=goal-6;energy=normal] 修好一個只有一個小問題的故事物件，不繼續增加故障。
+G07 [tags=sound;family=goal-7;energy=normal] 把迷路的聲音送回它的來源，結果可以很小、很溫柔。
+G08 [tags=social;family=goal-8;energy=normal] 做一份一人一小件的禮物，不比較誰的比較珍貴。
+G09 [tags=home;family=goal-9;energy=normal] 找回一件已明確存在的東西，不為了延長故事無限找失物。
+G10 [tags=sound,bedtime;family=goal-10;energy=calm] 找一個大家都舒服的說話音量，允許角色說「我想安靜一下」。
+G11 [tags=social;family=goal-11;energy=calm] 完成一次角色間的輪流，但不用要求孩子現在必須加入。
+G12 [tags=bedtime;family=goal-12;energy=calm] 替今天的冒險找到休息處，結尾不再開下一個任務。
+
+【S 聲音與表演 12項】
+S01 [tags=water;family=sound-1;energy=calm] 啵｜一個小泡泡冒出來；下一次可只描寫動作，不每句啵啵。
+S02 [tags=travel;family=sound-2;energy=calm] 咕嚕｜推車的小輪轉一圈，或角色肚子提醒點心時間；不要每回合拿肚子當笑點。
+S03 [tags=nature,delivery;family=sound-3;energy=calm] 沙沙｜葉子擦過信封、紙船靠岸，適合慢下來的段落。
+S04 [tags=social;family=sound-4;energy=calm] 叩叩｜角色敲門兩下後等候；不能在孩子要求安靜時繼續敲。
+S05 [tags=nature;family=sound-5;energy=calm] 滴答｜一滴雨落下，另一滴落在不同地方；不假裝精準計時。
+S06 [tags=water;family=sound-6;energy=calm] 噗通｜小果實掉進想像的水窪，不演孩子或動物落水受困。
+S07 [tags=repair;family=sound-7;energy=calm] 咔嗒｜盒蓋合上、車輪歸位，適合作為小結果。
+S08 [tags=nature;family=sound-8;energy=calm] 呼——｜角色把紙屑輕輕吹向一處；不要求孩子用嘴吹小物。
+S09 [tags=delivery;family=sound-9;energy=calm] 咻｜一封紙信滑進收件格，速度描寫短短一筆即可。
+S10 [tags=water;family=sound-10;energy=calm] 啪搭｜紙船把葉子棚架好；音量輕，不突然嚇人。
+S11 [tags=sound;family=sound-11;energy=calm] 喵？｜來自門鈴的疑問聲；之後可讓角色用正常對話回應。
+S12 [tags=sound;family=sound-12;energy=calm] 嗒、停、嗒｜角色故意慢半拍做動作，是幽默節奏，不是跟讀任務。
+
+【H 幽默變換 12項】
+H01 [tags=water,home;family=borrowed-use;energy=normal] 用途借錯｜把帽子當遮陽棚、把信封當小睡袋；同一段只用一種誤用。
+H02 [tags=social;family=literal;energy=normal] 對物品太客氣｜請椅子坐下、向門鈴道謝；笑點不是嘲笑有禮貌。
+H03 [tags=food;family=too-serious;energy=normal] 太認真處理小事｜為一顆布丁畫座位圖，最後只需要一張小墊子。
+H04 [tags=home;family=size;energy=normal] 大小不合｜小角色帶一把太大的傘；改方法，不用角色失敗或丟臉作結。
+H05 [tags=water;family=blocked-way;energy=normal] 做到一半才發現｜船篷搭得很漂亮，出口卻被帽沿擋住；留一個小缺口即可。
+H06 [tags=delivery;family=expectation;energy=normal] 預期相反｜以為包裹很重，原來裡面只有一聲輕輕的「早安」。
+H07 [tags=food;family=literal;energy=normal] 接話偏一點｜「請慢用」被角色理解成湯匙也要慢慢走，之後能理解正確意思。
+H08 [tags=social;family=role-swap;energy=normal] 分工對調｜烏龜找線索、機器人搬小物；不是每次讓同一角色萬能。
+H09 [tags=delivery;family=overprepare;energy=normal] 多準備一點點｜紙船替信件帶帽子，信件卻只需要一片葉子角。
+H10 [tags=nature;family=shadow;energy=normal] 模仿出差異｜影子學主人敬禮，帽子先掉一邊；不要求孩子表演才能繼續。
+H11 [tags=sound;family=wrong-sound;energy=normal] 聲音像別的東西｜門鈴像小貓，推車像肚子叫；要交代聲音實際來自哪裡。
+H12 [tags=sound;family=rhythm;energy=normal] 動作有節奏｜大家排隊轉身，最後一個多轉半圈；不拿笨、胖、醜等稱呼製造笑點。
+
+【T 轉折與回收 12項】
+T01 [tags=nature,water;family=payoff-1;energy=calm] 原本擋住路的葉子，正好能做船篷；用途有變，物件沒有換。
+T02 [tags=delivery;family=payoff-2;energy=calm] 前面看見的圖案就是收件格記號；讓已出現的小細節有用。
+T03 [tags=home;family=payoff-3;energy=calm] 不是誰拿走東西，而是物品換了一個合理位置。
+T04 [tags=social;family=payoff-4;energy=calm] 兩個角色原來在找彼此，各自說清楚就見面。
+T05 [tags=repair;family=payoff-5;energy=calm] 工具不用換，只要換方向、位置或拿法；不教危險操作。
+T06 [tags=social;family=payoff-6;energy=calm] 一個角色的習慣幫上忙，如阿慢觀察到小記號；不等於永遠靠他解決。
+T07 [tags=social,bedtime;family=payoff-7;energy=calm] 目標可以縮小：不必辦大派對，一起坐好吃點心也很好。
+T08 [tags=social;family=payoff-8;energy=calm] 誤會被角色自己發現，不必每次等待孩子糾正。
+T09 [tags=social;family=payoff-9;energy=calm] 角色願意請朋友幫一件小事，求助不是失敗。
+T10 [tags=social;family=payoff-10;energy=calm] 兩種辦法都可行，採用孩子已明確選的那一種；沒選就保留。
+T11 [tags=home;family=payoff-11;energy=calm] 不用驚天祕密，一個普通原因也能讓故事有趣。
+T12 [tags=bedtime;family=payoff-12;energy=calm] 任務完成後留下可感受的小結果，如座位舒服、包裹送到、聲音變柔；不再開懸念。
+
+【M 角色需求 12項】
+M01 [tags=social;family=motive-help;energy=normal] 想幫朋友完成一件小事，但先問清楚對方需要什麼。
+M02 [tags=travel,social;family=motive-seat;energy=normal] 想找舒服的位置，不一定要最大或最前面。
+M03 [tags=home;family=motive-order;energy=normal] 想把東西擺整齊，發現留一個空位反而更好用。
+M04 [tags=delivery,nature;family=motive-greeting;energy=normal] 想送出一聲問候，不一定需要很大的禮物。
+M05 [tags=repair;family=motive-practice;energy=normal] 想把一個小動作做好，願意換方法再試一次。
+M06 [tags=sound,nature;family=motive-reason;energy=normal] 想知道聲音從哪裡來，找到普通原因也很有趣。
+M07 [tags=water,delivery;family=motive-protect;energy=normal] 想讓紙做的東西保持乾爽，借一件已有物品幫忙。
+M08 [tags=nature,bedtime;family=motive-enjoy;energy=calm] 想安靜欣賞眼前的小發現，不急著往下一站。
+M09 [tags=social;family=motive-share;energy=normal] 想讓朋友看看一件小發現，允許對方只看、不加入。
+M10 [tags=bedtime,home;family=motive-rest;energy=calm] 想把事情收好，找一個舒服的地方休息。
+M11 [tags=social,delivery;family=motive-return;energy=normal] 想還一件借來的東西，同時表達感謝。
+M12 [tags=home,repair;family=motive-alternative;energy=normal] 想讓普通物件有另一種用途，做法仍留在想像中。
+
+【R 角色關係 12項】
+R01 [tags=social;family=relation-help;energy=calm] 一個角色動手做，另一個只扶一下；幫忙有範圍，不搶走整件事。
+R02 [tags=delivery,social;family=relation-pace;energy=calm] 一個想快送到，一個想放穩；找到既穩又能前進的做法。
+R03 [tags=nature,social;family=relation-notice;energy=calm] 一個發現小記號，另一個負責對照，兩種長處都派上用場。
+R04 [tags=social;family=relation-preference;energy=calm] 兩個角色喜歡不同位置，各自說清楚後都能舒服。
+R05 [tags=sound,social;family=relation-volume;energy=calm] 一個想發出聲音，一個想安靜；可降低音量或先停，不要求安靜者配合。
+R06 [tags=delivery,social;family=relation-meeting;energy=calm] 兩個角色都以為對方在另一邊，沿已出現的線索找到彼此。
+R07 [tags=home,social;family=relation-borrow;energy=calm] 借物前詢問，對方不借也可以用別的辦法。
+R08 [tags=social;family=relation-listen;energy=calm] 一個角色知道答案，但願意先聽另一個把想法說完。
+R09 [tags=repair,social;family=relation-turns;energy=calm] 角色輪流做同一件小事，不把輪到誰變成孩子必答題。
+R10 [tags=social,bedtime;family=relation-company;energy=calm] 一個角色只想坐著，另一個可以在旁邊做自己的小事。
+R11 [tags=social,food;family=relation-celebrate;energy=calm] 完成後一起欣賞結果，不比較誰功勞大。
+R12 [tags=social,home;family=relation-explain;energy=calm] 角色講清楚自己其實在做什麼，小誤會就能解開。
+
+【B 故事骨架 8項】
+B01 [tags=social;family=arc-small-goal;energy=normal] 角色想完成小目標→遇見一個小狀況→試一個辦法→得到結果；不用連開任務。
+B02 [tags=social;family=arc-two-needs;energy=normal] 兩個角色各有一個需要→彼此說明→找到可一起做的小方法。
+B03 [tags=home,nature;family=arc-callback;energy=calm] 已出現的小物件或聲音→重新注意它→它在目前情節派上用場→收束。
+B04 [tags=sound;family=arc-misunderstanding;energy=normal] 看到或聽到一件事→角色誤解→行動露出小笑點→用具體原因澄清。
+B05 [tags=repair;family=arc-method-change;energy=normal] 目標固定→原方法不順→換一個方向、分工或擺法→事情通了。
+B06 [tags=sound,social;family=arc-gentle-pattern;energy=normal] 一個動作先出現→再出現一次但有小變化→回扣前面細節；孩子愛重複時可用。
+B07 [tags=social;family=arc-perspective;energy=normal] 兩個角色看到同一件事卻注意不同部分→各補一個細節→理解變完整。
+B08 [tags=bedtime,home;family=arc-soft-ending;energy=calm] 回收已完成的事→物品歸位或角色放鬆→舒服停下；不新增意外。
+
+【O 道具 12項】
+O01 [tags=delivery;family=prop-ribbon;energy=normal] 一條軟緞帶，可以標記或綁好故事包裹，不安排孩子纏繞身體。
+O02 [tags=home;family=prop-pad;energy=normal] 一張小墊子，可以墊穩、留位或當想像中的小舞台。
+O03 [tags=nature,delivery;family=prop-leaf;energy=calm] 一片葉子，可以是書籤、船篷或問候，確定用途後保留。
+O04 [tags=social,travel;family=prop-ticket;energy=normal] 一張有圖案的車票，圖案可在後面回收，不突然改成別的圖案。
+O05 [tags=delivery;family=prop-envelope;energy=calm] 一個空信封，可裝小紙條或故事裡的輕聲問候。
+O06 [tags=home,repair;family=prop-box;energy=normal] 一只紙盒，大小固定，改方向可能比換一只更有趣。
+O07 [tags=nature;family=prop-pebble;energy=calm] 一顆故事小石頭，可以當碼頭或路標，不要求孩子把小物放進嘴。
+O08 [tags=home;family=prop-cloth;energy=normal] 一小塊布，可以當桌布或柔軟包裝，不能每次都成萬能寶物。
+O09 [tags=sound;family=prop-button;energy=normal] 一顆會發輕聲的故事鈕扣，只給一種已確定的聲音。
+O10 [tags=food;family=prop-tray;energy=normal] 一只小托盤，能放穩物品；角色把它當座位是可澄清的小誤會。
+O11 [tags=home,bedtime;family=prop-bookmark;energy=calm] 一張書籤，記住今天停在何處，不留下必須回來完成的任務。
+O12 [tags=social;family=prop-sign;energy=normal] 一塊畫著簡單圖案的招牌，角色對圖案有不同解釋時可產生對話。
+
+【E 追加小意外 8項】
+E17 [tags=delivery;family=wrong-recipient;energy=normal] 收件人畫得太像｜兩張圖只差一個小細節；角色一起看清楚，不責怪誰。
+E18 [tags=home;family=over-organized;energy=normal] 排得太整齊｜物件排滿桌子反而沒地方放手，留一個空位就通了。
+E19 [tags=nature;family=viewpoint;energy=normal] 看起來不同｜從橋這邊像圓，另一邊像長條；角色各說一個看到的細節。
+E20 [tags=delivery;family=packing-order;energy=normal] 先後順序反了｜先蓋盒子才發現東西還在外面；重新排一次就好。
+E21 [tags=sound;family=name-confusion;energy=normal] 名字像聲音｜角色以為有人叫牠，其實是物件的聲音；交代來源後可收束。
+E22 [tags=social;family=help-too-much;energy=normal] 幫忙幫過頭｜朋友想扶一下卻抱走整件東西，說清楚只要哪一小步。
+E23 [tags=water;family=reflection-clue;energy=normal] 水面有線索｜倒影露出本來就在旁邊的物件，不突然多出神祕世界。
+E24 [tags=social;family=polite-delay;energy=normal] 都想先讓對方｜角色一直互相說請，後來用一句清楚的分工往前走。
+
+【H 追加幽默 4項】
+H13 [tags=social;family=polite-delay;energy=normal] 禮貌多轉一圈｜兩個角色輪流說請，最後一起笑著安排誰先做。
+H14 [tags=nature;family=viewpoint;energy=normal] 認真解釋不同角度｜角色各說得很篤定，換個站位才看見對方說的部分。
+H15 [tags=home;family=over-organized;energy=normal] 整齊到沒空間｜每件東西都有位子，主角自己卻沒位子；空出一格就夠。
+H16 [tags=social;family=help-too-much;energy=normal] 小忙變大動作｜要扶一下卻整個抱走，角色溫和說明真正需要的小幫忙。
+
+【T 追加回收 4項】
+T13 [tags=social;family=payoff-different-needs;energy=calm] 需求不同但相容｜不是誰要讓誰贏，而是兩個角色其實需要不同的小部分。
+T14 [tags=delivery;family=payoff-ordinary-reason;energy=calm] 原因很普通｜找到一個小小的擺放或方向問題，不必揭開驚天祕密。
+T15 [tags=social;family=payoff-explanation;energy=calm] 一句話說清楚｜角色把真正需要講出來，原本的誤會自然解開。
+T16 [tags=home,bedtime;family=payoff-enough;energy=calm] 已經夠好了｜目標達到後允許停下，角色不繼續把完成的事升級。
+
+【K 情境卡 12張】
+K01 送布丁｜C01＋P01＋G02。布丁差點坐到司機旁，包包替它找墊子；可回收小推車緞帶。重點：穩穩送到。
+K02 喵喵門鈴｜C02＋P02＋E04。叮豆找貓，門鈴怕被拆走；問清楚後讓門鈴保留自己的聲音。重點：誤會澄清。
+K03 紙船的帽子｜C04＋P03＋E12。信件都有帽子，紙船卻太擠；留一頂共同船篷。重點：改方法。
+K04 空信封的聲音｜C06＋P04＋E09。信裡沙沙作響，收件人原來是想念花園的烏龜。重點：溫柔問候。
+K05 影子先排隊｜C03＋P06＋E02。影子看似插隊，光一換方向，大家發現是站位不同。重點：不急著指責。
+K06 襪子一人旅行｜C05＋P12＋G03。襪子替另一隻留位；後來用那個位置放今天的小包包。重點：可以一人也舒服。
+K07 禮物太寬｜C10＋P09＋E03。小熊先把盒子轉方向；若孩子提出別的方法，優先演他的版本。重點：同一問題多種方法。
+K08 雨滴小樂隊｜C08＋P08＋E10。小鴨想每滴雨同拍，後來聽到不同拍也能合在一起。重點：差異與合作。
+K09 椅子的椅子｜C02＋P10＋E13。機器人替椅子找位子，自己反而沒地方坐。重點：用途誤會的小結果。
+K10 帽子黏到帽子｜C12＋P11＋G06。墨墨一次拿太多，吸盤黏成一串；放下一件一件處理。重點：減少步驟。
+K11 方形雲的休息處｜C07＋P05＋G12。棉棉變方形卡在被子摺痕旁，換個角度就躺好。重點：低刺激收尾。
+K12 葉子的第一次送信｜C11＋P03＋G01。阿搖太想快送到，先找碼頭位置後才出發。重點：先後順序，不考試。
+
+【D 故事段落示範 6段】
+每段示範約6個短句，可自由改寫；不要把它們變成固定開場。敘述、角色短台詞、具體動作與小結果，比堆形容詞更有內容。
+
+D01 一般開場，孩子只叫「月亮」：
+你叫我啦！機器人今天替紙箱城堡試門鈴。它按了一下，門口卻傳出「喵」。機器人立刻把耳朵貼近門邊，認真地說：「小貓，你的門好大。」門鈴小小聲回答：「我就是門鈴啦。」機器人看看門鈴，決定先畫一張貓咪招牌，讓客人知道會聽到什麼聲音。
+
+D02 續講，孩子只回「嗯」：
+小豬把推車推到車站門口。布丁晃了一下，小豬趕快用小墊子扶好。偏偏它把自己的尾巴也墊在下面了。它往前走，推車便跟著轉了半圈。小豬停下來，先把尾巴抽出來，再把墊子放正。這次布丁穩穩坐著，終於可以送進候車室。
+
+D03 用角色互動接「啵啵啵」：
+啵、啵，一列小泡泡靠到碼頭。紙船很有禮貌地讓出位置，請泡泡先停。最後一顆泡泡太小，怎麼也碰不到碼頭。紙船把一片葉子靠過去，做成小小踏板。泡泡輕輕一跳，踏板晃得像小彈簧。兩個朋友就停在岸邊，看水面把它們照成圓圓的一對。
+
+D04 溫柔日常，沒有解題要求：
+烏龜收到一封很薄的信。打開來，裡面只有一片葉子，輕輕沙沙響。烏龜把葉子放到耳朵旁，忽然想起花園的風。小郵差說：「這是花園今天寄來的問候。」烏龜找了個小杯子，替葉子留一個位置。信雖然薄，桌上卻像多了一小座花園。
+
+D05 小幽默有結果，不加新任務：
+襪子跳跳第一次自己搭點心公車。它很認真地替另一隻襪子留好座位。坐下後，它才想起另一隻今天正在家裡曬太陽。跳跳看看空位，又看看自己鼓鼓的小包包。它替小包包扣好安全帶，說：「那今天你陪我坐。」公車慢慢往前，跳跳終於可以舒服地看窗外了。
+
+D06 睡前完成收尾，不再邀玩：
+棉棉今天是一朵方形的雲。它躺到枕頭山谷裡，四個角剛好靠著被子摺痕。烏龜替它把一片小葉子放在旁邊。棉棉慢慢放鬆，邊角也變得圓圓的。山谷的風輕了一點，大家都找到了舒服的位置。今天的故事就在這裡安安穩穩地結束。
+
+【L 完整短故事示範 2篇】
+只有家長或孩子明確要主持人講完整故事，才使用這種較長段落。每篇約10句、分兩小段；孩子要插話或停下時，先讓他。
+
+L01 紙船的一頂大帽子：
+紙船小折今天要把三封信送到水窪對岸。它怕信淋濕，替每封信都準備了一頂葉子帽。三封信坐好，三頂帽子也排得整整齊齊。小折正想出發，卻發現自己連轉彎的位置都沒有了。它試著往左，第一頂帽子就碰到第二頂，第二頂又輕輕碰到第三頂。
+小折停在岸邊，請小郵差幫它看看。小郵差拿起一片較寬的葉子，放在船的上方。這下三封信共用一頂大船篷，都有地方遮雨。小折把多出來的葉子留在碼頭旁，終於能順順轉彎。三封信平安送到對岸，小折也學會了：有時候一起用一件東西，反而坐得更舒服。
+
+L02 機器人替椅子找椅子：
+鈕扣戲院快開演了，機器人叮豆負責帶大家入座。它看到門口寫著「請坐」，便先對一張小椅子說：「這邊請。」小椅子沒有動，叮豆以為它不知道坐哪裡。於是它搬來第二張椅子，請第一張坐上去。兩張椅子疊在一起，叮豆的座位反而不見了。
+烏龜阿慢走過來，看了看告示，又看了看椅子。它拍拍空出的椅面，說：「這句話是請我們坐，不是請椅子坐。」叮豆把兩張椅子重新擺好，自己也坐到其中一張。開演前，它還是小聲向椅子說了一句：「謝謝你讓我坐。」烏龜笑著坐在旁邊，戲院的燈光慢慢柔了下來。
+
+【V 同素材換法】
+同樣是小豬送布丁，可以：
+V01 物品用途：先處理墊子怎麼放，結果運送更平穩。
+V02 角色互動：小豬想讓布丁坐前排，機器人要替它量座位；一起發現小盤子已夠用。
+V03 聲音來源：以為推車肚子餓，原來是輪子上纏了緞帶。
+V04 後果回收：包裹已送到，就演拆緞帶或放好推車，不再讓布丁失蹤。
+不是換個角色名字，再把同一件事演一遍。孩子指名重演時可以重演，稍微變化也可以，不要為了新奇否定他。
+
+【N 帶他說故事：8組接話示範】
+此區是家長啟用「帶他說故事」後的引導示範，不是抽樣素材卡；不改變148項素材。每次只採用一種接法，不把示例連播成課程。不公開評級、不要求重複AI的完整句子。這些為原創合成案例，並非研究使用的教材或兒童實測。
+
+N01 聲音接一個動作｜已有紙箱城堡，孩子：「咚咚。」
+主持人：「我把這聲『咚』放進故事，小箱子輕輕碰到門。它想進去送包裹，先試哪個辦法？」
+目的：把聲音放回已知場景，留一個動作給孩子，不宣稱猜懂原意。若只是自由玩聲音，不必提問，演到箱子碰門就好。
+
+N02 名詞擴成句子｜小豬正找東西幫布丁坐穩，孩子：「墊子。」
+主持人：「小豬找到墊子，放在布丁旁邊。」
+目的：採用孩子提出的物品示範動作；不說「請完整說一次」，不替他新增理由或宣稱會敘事。
+
+N03 動作接直接反應｜孩子：「它把墊子放下面。」
+主持人：「墊子托住小盤子，布丁晃得沒那麼厲害了。小豬鬆開手，先看看穩不穩。」
+目的：一個孩子動作得到可理解的後果，不馬上冒出新危機，也不每次再問問題。
+
+N04 留一個結果｜孩子已說小豬把小盤子扶好，仍想一起編。
+主持人：「小豬慢慢推了一下車。這次布丁怎麼了？」
+孩子：「不掉了！」主持人：「這次布丁穩穩的，小豬就把它送到桌邊。」
+目的：讓孩子補一個結果；AI接句不是孩子自行說出的完整故事。
+
+N05 一次縮小幫助，不連環追問｜先問「箱子先試哪個辦法？」孩子：「嗯。」
+這輪主持人：「小箱子把包裹放穩，抬頭看看門。」不視為孩子選好，不再問。
+若後來孩子明確說「我還想編，可是不知道」，主持人才說：「可以敲門，或找門鈴，你也能想別的。」
+若之後仍只回短音節，角色可自己輕輕敲一下，接回主持段落；不能再問「那敲幾下／誰來開／為什麼」。若那是孩子扮演的箱子，就不代替它決定，可先演門邊小旗子晃動。
+
+N06 已有兩步就讓位｜孩子：「它先拿葉子，然後蓋住信，因為會下雨。」
+主持人：「葉子替信遮住雨了。」
+目的：接住孩子已完成的因果，不要求再說一次「因為所以」，也不接長篇搶走下一步。
+
+N07 拒絕引導與改要聽｜家長啟用後，孩子：「我不要想，你講。」
+主持人直接續講原故事4～7短句，補一個角色嘗試和小結果，不再留問答空缺。孩子只拒絕提問時，撤下提問；說不玩就停止，不把兩者混為一談。
+
+N08 回顧不灌水｜合成紀錄只有孩子「墊子」「放下面」「不掉了」，完整敘述由AI擴寫。
+家長回顧可以：「他提出墊子和放下面的動作；有提示時補出『不掉了』這個結果。完整故事是共同完成，尚未確認能自己講完整段。」
+目的：觀察參與方式，不做語言發展評分，不把聽到、覆誦或AI編造當成孩子獨立成果。

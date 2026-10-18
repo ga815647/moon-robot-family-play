@@ -1,6 +1,10 @@
 # 維護規則
 
 - 唯一正式專案指令是 PROJECT_INSTRUCTIONS.md；未來新版都在此 repo 以 Git 維護。
+- Plugin完整主持skill由PROJECT_INSTRUCTIONS.md產生；三個專用skill維護於skill-sources，素材仍只維護STORY_MATERIALS.txt。不要直接修改plugins下的產物；改來源後跑build:plugin、check:plugin、npm test與package:plugin。
+- PROJECT_PLUGIN_INSTRUCTIONS.md只供已確認Plugin載入的Project使用，含必要備援；不能宣稱放名字或連結便保證載入。原全文仍是正式規範與語音備援。
+- 使用者已授權此Plugin與repo共同維護。未來改版需更新同一帳號Plugin而非另建，先讀目前release再更新；若僅push但尚未發行，明確說尚未同步。帳號ID及release保留在.local/account-plugin.json，勿把下載後正規化的帳號作者資訊或憑證推公開repo。
+- 安裝、可見skills、MCP帳號路由與手機語音是不同驗證。只確認哪一層就報哪一層；不要為刷新工具自行開新聊天或改全域Plugins權限。
 - 保留成人操作與陪同、台灣繁體中文、約5歲語音遊戲的使用情境。
 - 一般遊戲由主持人提供內容與小進展；「月亮」幾乎一律預設為主持人或語音介面。只有明確的天體或故事角色上下文才切換，不反覆確認、不推定天文興趣。
 - 孩子停止、拒絕或正在主講時，優先尊重；不以主動主持為由搶話、代選或追問。

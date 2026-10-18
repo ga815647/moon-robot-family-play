@@ -1,0 +1,37 @@
+{
+  "manifest": {
+    "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+    "name": "moon-robot-family-play",
+    "version": "1.4.0",
+    "description": "成人陪同的台灣5歲親子語音遊戲：主動主持、共同敘事、睡前收尾與家長回顧，附可選唯讀故事素材MCP。",
+    "author": { "name": "ga815647" },
+    "homepage": "https://github.com/ga815647/moon-robot-family-play",
+    "repository": "https://github.com/ga815647/moon-robot-family-play",
+    "keywords": ["親子遊戲", "月亮機器人", "共同敘事", "繁體中文", "storytelling"],
+    "extensions": {
+      "com.openai": {
+        "interface": {
+          "displayName": "月亮機器人｜親子遊戲",
+          "shortDescription": "陪孩子玩故事，也把一小步留給孩子",
+          "longDescription": "供家長操作並陪同約5歲孩子使用。包含主動遊戲主持、低壓共同敘事、睡前收尾、家長回顧四個skills，以及Cloudflare唯讀故事素材工具。孩子呼喚月亮時預設指主持人或介面；尊重拒絕、安靜與孩子主講。基本遊戲不需呼叫外部服務，語音載入能力須在實際使用介面確認。",
+          "developerName": "ga815647",
+          "category": "Education",
+          "capabilities": ["Interactive"],
+          "defaultPrompt": "請用月亮機器人陪我們玩故事，由我陪同操作。先載入遊戲主持skill，從一個小場景開場。",
+          "logo": "./assets/moon.svg",
+          "composerIcon": "./assets/moon.svg"
+        }
+      }
+    }
+  },
+  "mcp": {
+    "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+    "mcpServers": {
+      "moon-story-materials": {
+        "type": "streamable-http",
+        "url": "https://moon-robot-materials.ga815647.workers.dev/mcp",
+        "extensions": { "com.openai": { "auth": { "type": "none" } } }
+      }
+    }
+  }
+}

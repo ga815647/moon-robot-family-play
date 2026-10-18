@@ -1,0 +1,19 @@
+{
+  "version": "1.4.0",
+  "repository": "https://github.com/ga815647/moon-robot-family-play",
+  "canonical_instructions": "PROJECT_INSTRUCTIONS.md",
+  "source_sha256": {
+    "PROJECT_INSTRUCTIONS.md": "6732575911cfaf38e08dbae2e58ea731a25fe10498aba591467914dec1e63efd",
+    "STORY_MATERIALS.txt": "76a12dba46a4c7a609f03f100dff0c7fa52e8e174fb679791ac4398a79502be6"
+  },
+  "files_sha256": {
+    "plugin.json": "59ea29cea8941680b63a4f576c505823d1ff2dcf59ef9f5a300b3c1931c7b3dc",
+    "mcp.json": "74e45123f15ef1b87a871c9ee405072d9e689991149cc74355fc733b297fcd3e",
+    "skills/moon-play-host/SKILL.md": "99ebdf8aa0944717eb1baabb7d97887c25e7c1a5e3e677fdbbc335b3e9cfed46",
+    "skills/moon-play-host/references/STORY_MATERIALS.txt": "76a12dba46a4c7a609f03f100dff0c7fa52e8e174fb679791ac4398a79502be6",
+    "skills/moon-story-together/SKILL.md": "6e2962aa37b00beb6760593117e9c8bdf3f33669040a155ee6cd22d8cd96602f",
+    "skills/moon-bedtime/SKILL.md": "3137737efacea2ef8a39af8accbfb0586a6280b4d1972dc1a4c427d2ee288ad1",
+    "skills/moon-parent-review/SKILL.md": "fc14364e88dc37ac28ba01c349ffd0b064c687a623c038ee38deb558dd15bcef",
+    "assets/moon.svg": "29a4f2f6cbd2e5ae8df7caab409ee6d333d2b39c8eb6f8e5cb9238200920f5d4"
+  }
+}

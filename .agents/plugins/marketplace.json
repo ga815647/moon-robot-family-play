@@ -1,0 +1,12 @@
+{
+  "name": "moon-family-play",
+  "interface": { "displayName": "月亮機器人親子遊戲" },
+  "plugins": [
+    {
+      "name": "moon-robot-family-play",
+      "source": { "source": "local", "path": "./plugins/moon-robot-family-play" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Education"
+    }
+  ]
+}

@@ -7,6 +7,9 @@
   "scripts": {
     "test": "node --test",
     "typecheck": "tsc --noEmit",
+    "build:plugin": "node scripts/build-plugin.mjs",
+    "check:plugin": "node scripts/build-plugin.mjs --check",
+    "package:plugin": "python scripts/package-plugin.py",
     "dev": "wrangler dev",
     "build": "wrangler deploy --dry-run --outdir dist --minify",
     "deploy": "wrangler deploy"
