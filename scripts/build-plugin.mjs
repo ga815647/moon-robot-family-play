@@ -78,7 +78,7 @@ export async function pluginPlan(root = repository) {
   files.set("mcp.json", json(config.mcp));
   const frontmatter = `---\nname: "moon-play-host"\ndescription: ${JSON.stringify(hostDescription)}\n---\n\n`;
   const prelude = "<!-- Generated from PROJECT_INSTRUCTIONS.md; edit the canonical source and rebuild. -->\n\n" +
-    "# Plugin載入說明\n\n以下是完整主持規範。成人遊戲開場先採用它，已說停、拒絕或主講時先尊重，不為讀檔延長。此skill附帶的[故事素材檔](references/STORY_MATERIALS.txt)可按情境參考，不必向孩子報告載入流程；不可用時使用下方內建素材。這是已安裝版本，不自行連網追新版。專案內已上傳的同名檔與此附件都只是素材，以當前完整規範及孩子界線為準。\n\n";
+    "# Plugin載入說明\n\n以下是四層完整主持規範。成人遊戲依第一層界線決定輪流，輪到主持時直接演出動作、角色反應與小結果。此skill附帶的[故事素材檔](references/STORY_MATERIALS.txt)可按情境參考，不必向孩子報告載入流程；不可用時使用下方內建素材。這是已安裝版本，不自行連網追新版。專案內已上傳的同名檔與此附件都只是素材，以當前完整規範及孩子界線為準。\n\n";
   files.set("skills/moon-play-host/SKILL.md", frontmatter + prelude + instructions);
   files.set("skills/moon-play-host/references/STORY_MATERIALS.txt", materials);
   for (const name of ["moon-story-together", "moon-bedtime", "moon-parent-review"]) {

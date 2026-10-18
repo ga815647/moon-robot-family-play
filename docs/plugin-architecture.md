@@ -1,6 +1,6 @@
 # Plugin架構、安裝與GitHub維護
 
-版本1.6.0，2026-10-18。GitHub維護完整指令、素材、四個skills與可重建套件；Project直接放完整規則，同一個人私人Plugin提供skills與可選MCP。沒有新增付費服務、embedding、LLM呼叫、資料庫或背景工作。
+版本1.7.0，2026-10-18。GitHub維護完整指令、素材、四個skills與可重建套件；Project直接放完整規則，同一個人私人Plugin提供skills與可選MCP。沒有新增付費服務、embedding、LLM呼叫、資料庫或背景工作。
 
 ```mermaid
 flowchart TD
@@ -18,9 +18,9 @@ flowchart TD
 
 ## 目前部署與使用
 
-- Project：1.6.0完整PROJECT_INSTRUCTIONS.md，保留台灣口語、成人陪同與四個skills路由；不依賴手機成功載入skill才有完整帶法。先前1.5.0全文及更早入口保留本機備份。記憶與空間權限不變。
+- Project：1.7.0四層完整PROJECT_INSTRUCTIONS.md，保留台灣口語、成人陪同與四個skills路由；不依賴手機成功載入skill才有完整帶法。先前1.5.0全文及更早入口保留本機備份。記憶與空間權限不變。
 - Plugin：更新原本的個人私人Plugin，4個skills、完整素材與同一MCP入口；沒有另建同名Plugin、送審公開目錄或擴權。公開的是GitHub原始碼。
-- CF：重新打包1.6.0素材文件；抽樣邏輯仍1.2.0、148項原子卡。N／Q／W教學示例不當成抽樣卡或情緒資料。
+- CF：重新打包1.7.0素材文件；抽樣邏輯仍1.2.0、148項原子卡。N／Q／W教學示例不當成抽樣卡或情緒資料。
 - GitHub：來源及生成套件共同以Git維護。push不會自動替換Project、帳號Plugin或既有聊天。
 
 在既有Project另開新聊天，直接說「月亮，開場吧」。需要使用skills時由家長選已安裝Plugin；若當前介面沒提供，Project全文也能玩。手機即時語音是否載入Plugin及調用MCP仍需實測，不能從安裝或一般文件推定。
@@ -69,3 +69,11 @@ draw_story_materials只提供公開分類與ID的唯讀抽選；成人啟用、�
 在既有Project全文內整合八種情境帶法，重整重複段落，仍在8,000字元內；不新增必讀書摘skill。素材W01～W08隨Plugin及CF素材包更新，共同敘事與睡前skill同步；來源是三本書可見介紹／節錄所啟發的原創改編，不宣稱完整評讀或學習成效。[採用範圍](book-inspired-playcraft.md)、[實際多輪檢查](book-inspired-checks.md)。
 
 相較1.5.0新增道具短台詞、角色互助、無害誤會、受邀換位與演出、保留孩子作者地位及熟梗換反應。明確停止、主講、真實困擾仍優先；幽默不成為迫使配合的方法。Project儲存後核對全文，帳號Plugin回讀核對；手機語音仍待試玩。
+
+## 1.7.0四層正向指令
+
+全文整合為界線與安全、每輪回應、故事創作、玩法與維護四層，5,354字元。一般主持直接演動作、角色反應與小結果，自然停句；停止、拒絕與主講只依第一層的明確條件處理。精簡入口、共同創作與睡前來源同步；舊版skill不覆蓋當前Project全文。
+
+本輪已儲存Project全文並重新開啟逐字核對，更新同一USER／PRIVATE Plugin1.7.0並回讀11檔；CF素材包標籤為materials-1.7.0，8項線上檢查通過，148張原子卡與抽樣程式1.2.0不變。GitHub維護內容、生成套件與版本共同提交。各層證據見[重構與同步紀錄](positive-instructions-refactor.md)。
+
+[合成文字回歸](positive-instructions-checks.md)保存兩版10案及三組各5次措辭檢查。三組未重現空轉，不能證明新版優於舊版；手機即時語音與實際親子使用仍待試玩。

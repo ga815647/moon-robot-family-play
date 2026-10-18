@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "moon-robot-family-play",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "成人陪同的台灣5歲親子語音遊戲：主動主持、共同敘事、睡前收尾與家長回顧，附可選唯讀故事素材MCP。",
   "author": {
     "name": "ga815647"
