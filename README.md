@@ -9,7 +9,7 @@
 3. 可將 [STORY_MATERIALS.txt](STORY_MATERIALS.txt) 上傳Project來源，擴充素材；沒有上傳仍可使用指令內的小素材庫。
 4. 未來在這個repo維護新版；更新後查看差異及[模擬對照](docs/simulated-dialogues.md)、[故事長度與素材檢查](docs/materials-and-story-length-checks.md)，再由家長同步指令及素材檔。
 
-目前版本：1.2.0，2026年10月18日。來源連結不會自動同步指令或上傳素材。基本遊戲使用已貼入的全文，不依賴即時搜尋、自行架設RAG、安裝程式或付費附加服務。Project素材檔是可選擴充，不保證每回合讀入全檔；[Worker素材服務](docs/worker.md)提供可選的程式抽樣。
+目前指令與素材說明版本：1.3.0，2026年10月18日。來源連結不會自動同步指令或上傳素材。基本遊戲使用已貼入的全文，不依賴即時搜尋、自行架設RAG、安裝程式或付費附加服務。Project素材檔是可選擴充，不保證每回合讀入全檔；[Worker素材服務](docs/worker.md)提供可選的程式抽樣。Worker維持1.2.0，相同148項卡片；本次敘事引導在指令與素材示範中運作。
 
 ## 這份指令改了什麼
 
@@ -21,6 +21,7 @@
 - 七類故事靈感自由組合，保留已定設定，近期笑點避免連續重複。
 - 一般接戲一次只加一個主要變化；完整故事可有2～3個相連步驟，孩子仍能改寫、拒絕或結束。
 - 保留成人主導、語音轉寫確認、安全、自然學習與睡前收尾。
+- 加入家長可啟用的「帶他說故事」：示範、接詞擴句、留一個動作或結果；孩子能講就縮短讓位，不逼完整句、不連續追問。素材N區另有8組接話示範。
 
 ## 檔案
 
@@ -35,6 +36,8 @@
 | [Project來源與MCP設計](docs/material-supply-options.md) | 檔案方案、候選抽選、embedding取捨與接入限制 |
 | [Worker使用與驗證](docs/worker.md) | 可選MCP服務、開發部署方式與測試範圍 |
 | [生成器整合案例](docs/generator-integration-checks.md) | 角色綁定、骨架與笑點去重的合成推演 |
+| [幼兒敘事研究評估](docs/narrative-scaffolding-evaluation.md) | 5項研究／原型的證據、反證與採用界線 |
+| [敘事引導檢查](docs/narrative-scaffolding-checks.md) | 16組合成對照及五面向檢查 |
 | [CHANGELOG.md](CHANGELOG.md) | 版本變動 |
 | [AGENTS.md](AGENTS.md) | 後續協作維護規則 |
 

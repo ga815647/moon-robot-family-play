@@ -2,6 +2,8 @@
 
 版本1.2.0已部署為獨立Cloudflare Worker，從同一份STORY_MATERIALS.txt打包148項素材。Project指令和素材檔也已整合生成器做法；Worker只是可選抽樣來源，不是遊戲必備依賴。
 
+指令與素材說明1.3.0新增敘事引導及N區8組示範；148項原子卡片未變，線上Worker仍為1.2.0。N區不在抽樣解析範圍，不需重新部署；共同敘事的引導由Project指令處理，不能只連接MCP就期待新玩法生效。
+
 ## 服務入口
 
 - MCP連線網址：[https://moon-robot-materials.ga815647.workers.dev/mcp](https://moon-robot-materials.ga815647.workers.dev/mcp)
