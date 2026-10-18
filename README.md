@@ -7,12 +7,13 @@
 1. 使用[完整專案指令](PROJECT_INSTRUCTIONS.md)，已含可用時的Plugin路由，不依賴載入成功。已確認當前聊天能載入skills才考慮[精簡入口](PROJECT_PLUGIN_INSTRUCTIONS.md)；兩份擇一。[架構說明](docs/plugin-architecture.md)。
 2. Plugin包含主持、共同敘事、睡前及家長回顧四個skills，以及現有唯讀素材MCP。由家長在新聊天選用Plugin，再開始遊戲；可以說「月亮，開場吧」。
 3. Plugin內已附素材。完整指令模式可另上傳[STORY_MATERIALS.txt](STORY_MATERIALS.txt)；未讀到仍可使用內建小素材庫。
-4. 未來在此repo維護來源，產生並更新同一Plugin；更新時同步Project。此次依家長授權套用1.5.0完整指令、發行同一私人Plugin並重新打包CF素材；原設定保留本機備份，手機語音載入仍待實測。
+4. 未來在此repo維護來源，產生並更新同一Plugin；更新時同步Project。此次依家長授權套用1.6.0完整指令、發行同一私人Plugin並重新打包CF素材；原設定保留本機備份，手機語音載入仍待實測。
 
-目前指令、素材說明與Plugin版本：1.5.0，2026年10月18日。GitHub是維護來源，安裝Plugin是發行快照；push不會自動更新已安裝Plugin或既有聊天。基本遊戲不依賴即時搜尋、自行架設RAG或付費附加服務。[Worker素材服務](docs/worker.md)抽樣邏輯仍為1.2.0、相同148項卡片，已重新打包1.5.0素材全文；手機語音是否調用Plugin仍待實測。
+目前指令、素材說明與Plugin版本：1.6.0，2026年10月18日。GitHub是維護來源，安裝Plugin是發行快照；push不會自動更新已安裝Plugin或既有聊天。基本遊戲不依賴即時搜尋、自行架設RAG或付費附加服務。[Worker素材服務](docs/worker.md)抽樣邏輯仍為1.2.0、相同148項卡片，已重新打包1.6.0素材全文；手機語音是否調用Plugin仍待實測。
 
 ## 這份指令改了什麼
 
+- 三本書的適用方向轉成8種原創接戲帶法與W區情境示例：道具開口、可愛誤會、角色互助、受邀換位、採用孩子奇想、小片段演出及熟梗變化；孩子只聽也有完整內容。[書目、閱讀範圍及採用理由](docs/book-inspired-playcraft.md)。
 - 正向主持：察覺明說的需要，選加戲、示範、降刺激、支持或讓位；先在原故事換表演，再視反應換玩法。新增12組Q區示例，依[研究與採用界線](docs/attuned-hosting.md)設計，不宣稱AI能診斷或準確讀心。
 - 「月亮」幾乎一律預設為主持人或語音介面；只有明確上下文才切成天體或故事角色，不反覆問意思。
 - 一般遊戲由主持人開場、接戲、推進一小步，不用「我等你／我安靜」填空。
@@ -46,6 +47,8 @@
 | [主持空轉回歸檢查](docs/hosting-idle-regression.md) | 合成多輪、舊話語污染、停止與單次邀請的文字代理測試 |
 | [察覺需要與主動帶領](docs/attuned-hosting.md) | 情緒回應、引導遊戲與生動敘事研究如何進入核心指令 |
 | [正向主持對照檢查](docs/attuned-hosting-checks.md) | 16組新舊合成多輪、備援與既有18案回歸 |
+| [書籍原則與原創帶法](docs/book-inspired-playcraft.md) | 3本書的可見範圍、8種改編帶法及實際落點 |
+| [八種帶法檢查](docs/book-inspired-checks.md) | 16組新舊多輪、備援及18案回歸，保存實際輸出 |
 | [CHANGELOG.md](CHANGELOG.md) | 版本變動 |
 | [AGENTS.md](AGENTS.md) | 後續協作維護規則 |
 

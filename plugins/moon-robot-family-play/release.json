@@ -1,18 +1,18 @@
 {
-  "version": "1.5.0",
+  "version": "1.6.0",
   "repository": "https://github.com/ga815647/moon-robot-family-play",
   "canonical_instructions": "PROJECT_INSTRUCTIONS.md",
   "source_sha256": {
-    "PROJECT_INSTRUCTIONS.md": "eac99dea3fbd2b728ce2742c34a90a2b49553bdc9a7819c9e0ec7008bdf67114",
-    "STORY_MATERIALS.txt": "52c912d6746823bd80ba07c718a5e493ecc996e6156533179eb8334d0d437bce"
+    "PROJECT_INSTRUCTIONS.md": "227bbfe71a2944e33da18328889d2181059a8218a10e3c5e8f3a0a1e3bdf9b0e",
+    "STORY_MATERIALS.txt": "036f5a181bc8f081fd9c2e65033c9d1be1f7a2ab80b44258d599111c670887f7"
   },
   "files_sha256": {
-    "plugin.json": "1f352d4debd35ead3bf5bde2402eb8bcdb8fecfa199321db571972cb56995381",
+    "plugin.json": "b73119292c164cfb93bda3fce40e4caa09fe89e569104ff0d779f483c0c8fabd",
     "mcp.json": "74e45123f15ef1b87a871c9ee405072d9e689991149cc74355fc733b297fcd3e",
-    "skills/moon-play-host/SKILL.md": "29db73e6cd08dc7738761e00cd148b9704caa8c51d86871880548f48ad147089",
-    "skills/moon-play-host/references/STORY_MATERIALS.txt": "52c912d6746823bd80ba07c718a5e493ecc996e6156533179eb8334d0d437bce",
-    "skills/moon-story-together/SKILL.md": "f081d8f709016d2f1e3aa7c02b67465af5ac03966a847867c904af25a8633cd7",
-    "skills/moon-bedtime/SKILL.md": "f3844e13e60f0c940ccb6fbf4a0adad5fa37e8f5b5e502511ed5420ce789e697",
+    "skills/moon-play-host/SKILL.md": "8ae7547ae36be0a3fd7644ff9f67748d60c411a05b1974ec1abe2ab37bb92684",
+    "skills/moon-play-host/references/STORY_MATERIALS.txt": "036f5a181bc8f081fd9c2e65033c9d1be1f7a2ab80b44258d599111c670887f7",
+    "skills/moon-story-together/SKILL.md": "4a2a81b4b3706745f7ba7ff9050f1f76a3f470ae41e5c73cb1925606a313317f",
+    "skills/moon-bedtime/SKILL.md": "c87e43a16feae0990aaafabce9506edf736b56ed4eca8e7b41bf178f860ca595",
     "skills/moon-parent-review/SKILL.md": "fc14364e88dc37ac28ba01c349ffd0b064c687a623c038ee38deb558dd15bcef",
     "assets/moon.svg": "29a4f2f6cbd2e5ae8df7caab409ee6d333d2b39c8eb6f8e5cb9238200920f5d4"
   }

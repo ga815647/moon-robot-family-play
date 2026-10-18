@@ -2,7 +2,7 @@
 
 版本1.2.0已部署為獨立Cloudflare Worker，從同一份STORY_MATERIALS.txt打包148項素材。Project指令和素材檔也已整合生成器做法；Worker只是可選抽樣來源，不是遊戲必備依賴。
 
-指令與素材說明1.5.0含N區8組敘事與Q區12組需要回應示例。此次重新打包同一來源並部署，148項原子卡及抽樣程式未變，服務仍為1.2.0。N／Q不在抽樣範圍，情緒回應與帶領由Project及Plugin處理，不新增情緒輸入或記錄。
+指令與素材說明1.6.0含N區8組敘事、Q區12組需要回應及W區8組接戲示例。此次重新打包同一來源並部署，148項原子卡及抽樣程式未變，服務仍為1.2.0。N／Q／W不在抽樣範圍，情緒回應與帶領由Project及Plugin處理，不新增情緒輸入或記錄。
 
 ## 服務入口
 
@@ -17,7 +17,7 @@ MCP入口接受POST，直接用瀏覽器開GET會得到405，這不等於服務�
 
 ## 指令與來源檔
 
-先查看[完整指令差異與版本紀錄](../CHANGELOG.md)，再將[正式指令](../PROJECT_INSTRUCTIONS.md)全文同步至Project設定；將[素材檔](../STORY_MATERIALS.txt)替換為Project來源中的最新版。此次已將遠端Project同步為1.5.0完整指令，素材包含在Plugin；未另外上傳Project來源。
+先查看[完整指令差異與版本紀錄](../CHANGELOG.md)，再將[正式指令](../PROJECT_INSTRUCTIONS.md)全文同步至Project設定；將[素材檔](../STORY_MATERIALS.txt)替換為Project來源中的最新版。此次已將遠端Project同步為1.6.0完整指令，素材包含在Plugin；未另外上傳Project來源。
 
 只用這兩份文字就能玩。若來源不可見，指令內的小素材庫可繼續接戲；若工具未安裝，也不能假裝已呼叫。
 

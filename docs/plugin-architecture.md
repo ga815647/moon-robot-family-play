@@ -1,6 +1,6 @@
 # Plugin架構、安裝與GitHub維護
 
-版本1.5.0，2026-10-18。GitHub維護完整指令、素材、四個skills與可重建套件；Project直接放完整規則，同一個人私人Plugin提供skills與可選MCP。沒有新增付費服務、embedding、LLM呼叫、資料庫或背景工作。
+版本1.6.0，2026-10-18。GitHub維護完整指令、素材、四個skills與可重建套件；Project直接放完整規則，同一個人私人Plugin提供skills與可選MCP。沒有新增付費服務、embedding、LLM呼叫、資料庫或背景工作。
 
 ```mermaid
 flowchart TD
@@ -18,9 +18,9 @@ flowchart TD
 
 ## 目前部署與使用
 
-- Project：1.5.0完整PROJECT_INSTRUCTIONS.md，保留台灣口語、成人陪同與四個skills路由；不依賴手機成功載入skill才有完整帶法。先前1.4.1精簡入口保留本機備份。記憶與空間權限不變。
+- Project：1.6.0完整PROJECT_INSTRUCTIONS.md，保留台灣口語、成人陪同與四個skills路由；不依賴手機成功載入skill才有完整帶法。先前1.5.0全文及更早入口保留本機備份。記憶與空間權限不變。
 - Plugin：更新原本的個人私人Plugin，4個skills、完整素材與同一MCP入口；沒有另建同名Plugin、送審公開目錄或擴權。公開的是GitHub原始碼。
-- CF：重新打包1.5.0素材文件；抽樣邏輯仍1.2.0、148項原子卡。N／Q教學示例不當成抽樣卡或情緒資料。
+- CF：重新打包1.6.0素材文件；抽樣邏輯仍1.2.0、148項原子卡。N／Q／W教學示例不當成抽樣卡或情緒資料。
 - GitHub：來源及生成套件共同以Git維護。push不會自動替換Project、帳號Plugin或既有聊天。
 
 在既有Project另開新聊天，直接說「月亮，開場吧」。需要使用skills時由家長選已安裝Plugin；若當前介面沒提供，Project全文也能玩。手機即時語音是否載入Plugin及調用MCP仍需實測，不能從安裝或一般文件推定。
@@ -31,7 +31,7 @@ flowchart TD
 | --- | --- |
 | PROJECT_INSTRUCTIONS.md | 唯一完整規範，8,000字元內，直接貼Project；主持skill由此生成 |
 | PROJECT_PLUGIN_INSTRUCTIONS.md | 已確認載入skills後可選的精簡入口，含正向主持備援；兩份擇一 |
-| STORY_MATERIALS.txt | 148項原子素材、情境／長短故事、N區8組敘事與Q區12組需要回應示例 |
+| STORY_MATERIALS.txt | 148項原子素材、情境／長短故事、N區8組敘事、Q區12組需要回應與W區8組接戲示例 |
 | skill-sources/*.md | 共同敘事、睡前與家長回顧三個條件流程 |
 | plugin.config.json | 套件身分、公開作者資訊、版本、呈現及已驗證MCP入口 |
 | plugins/moon-robot-family-play/ | 自動產物，不手改；主skill內含全文、附件含完整素材 |
@@ -41,7 +41,7 @@ flowchart TD
 
 draw_story_materials只提供公開分類與ID的唯讀抽選；成人啟用、工具確實可用且缺靈感時才選用。停止、主講、拒絕及真實問題不抽；不傳兒童逐字稿或情緒，不把工具當成必備。[Worker說明](worker.md)。
 
-## 這次Project差異
+## 1.4.1入口到1.5.0全文的歷史差異
 
 | 1.4.1精簡入口 | 1.5.0完整規範 |
 | --- | --- |
@@ -63,3 +63,9 @@ draw_story_materials只提供公開分類與ID的唯讀抽選；成人啟用、�
 程式及打包檢查與線上8項MCP檢查分開記錄。完整指令、素材及專用skills從帳號回讀核對；Project儲存後重開確認全文相符。[16組正向主持前後對照](attuned-hosting-checks.md)另含備援及既有18案回歸，都是合成文字代理，沒有孩子成效或手機即時語音證據。
 
 官方[Plugins](https://learn.chatgpt.com/docs/plugins)、[skills](https://learn.chatgpt.com/docs/skills-and-plugins)、[Project](https://learn.chatgpt.com/docs/projects)及[套件格式](https://developers.openai.com/plugins/build/plugins)說明產品與封裝能力；[Voice文件](https://learn.chatgpt.com/docs/features/voice)不替代本帳號、這個Project、手機即時語音的實測。
+
+## 1.6.0八種原創帶法
+
+在既有Project全文內整合八種情境帶法，重整重複段落，仍在8,000字元內；不新增必讀書摘skill。素材W01～W08隨Plugin及CF素材包更新，共同敘事與睡前skill同步；來源是三本書可見介紹／節錄所啟發的原創改編，不宣稱完整評讀或學習成效。[採用範圍](book-inspired-playcraft.md)、[實際多輪檢查](book-inspired-checks.md)。
+
+相較1.5.0新增道具短台詞、角色互助、無害誤會、受邀換位與演出、保留孩子作者地位及熟梗換反應。明確停止、主講、真實困擾仍優先；幽默不成為迫使配合的方法。Project儲存後核對全文，帳號Plugin回讀核對；手機語音仍待試玩。
