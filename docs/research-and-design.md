@@ -8,6 +8,8 @@
 
 ## GitHub 機制與改編
 
+獨立故事產生器的後續研究見[隨機故事產生器的可用機制](random-story-generators.md)，區分本次補查與前版已採用的來源。
+
 | 專案及一手來源 | 原有機制 | 在這份指令中的改編 |
 | --- | --- | --- |
 | [SillyTavern World Info](https://github.com/SillyTavern/SillyTavern-Docs/blob/main/Usage/worldinfo.md) | 事件可以設定觸發機率；同組只選一項；冷卻期避免短期再次觸發。 | 一般續講至多一個主要變化；完整故事可有2～3個相連步驟。回看最近約4次主持人的故事回應，避免同梗連發。這是語意檢查，沒有執行機率程式。 |

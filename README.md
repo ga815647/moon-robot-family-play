@@ -28,6 +28,7 @@
 | [PROJECT_INSTRUCTIONS.md](PROJECT_INSTRUCTIONS.md) | 唯一正式版本，可一次複製貼上 |
 | [STORY_MATERIALS.txt](STORY_MATERIALS.txt) | 可上傳Project來源的原創素材庫 |
 | [研究與設計](docs/research-and-design.md) | GitHub 一手來源、機制改編、新舊差異、限制與維護方式 |
+| [隨機故事產生器](docs/random-story-generators.md) | Plot Generator、Tracery、Story Cubes等機制與適用方式 |
 | [模擬對話](docs/simulated-dialogues.md) | 26組前後對照及逐例檢查，全部為合成內容 |
 | [故事長度與素材檢查](docs/materials-and-story-length-checks.md) | 7組新增情境，檢查長故事與來源讀取界線 |
 | [Project來源與MCP設計](docs/material-supply-options.md) | 檔案方案、候選抽選、embedding取捨與接入限制 |
