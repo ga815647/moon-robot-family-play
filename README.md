@@ -6,16 +6,19 @@
 
 1. 開啟 [完整專案指令](PROJECT_INSTRUCTIONS.md)，複製全文，取代 Project 原有指令。
 2. 由家長陪同開始語音遊戲。可以說「月亮，開場吧」，也可直接接續目前活動。
-3. 未來在這個 repo 維護新版；更新後查看 [差異與設計](docs/research-and-design.md) 和 [26組模擬對照](docs/simulated-dialogues.md)，再由家長把全文同步到 Project。
+3. 可將 [STORY_MATERIALS.txt](STORY_MATERIALS.txt) 上傳Project來源，擴充素材；沒有上傳仍可使用指令內的小素材庫。
+4. 未來在這個repo維護新版；更新後查看差異及[模擬對照](docs/simulated-dialogues.md)、[故事長度與素材檢查](docs/materials-and-story-length-checks.md)，再由家長同步指令及素材檔。
 
-目前版本：1.0.1，2026年10月18日。專案中的來源連結指向這個 repo，但連結不會自動同步指令。遊戲使用已貼入的全文，不依賴即時搜尋、RAG、安裝程式或付費附加服務。
+目前版本：1.1.0，2026年10月18日。來源連結不會自動同步指令或上傳素材。基本遊戲使用已貼入的全文，不依賴即時搜尋、自行架設RAG、安裝程式或付費附加服務。Project素材檔是可選擴充，不保證每回合讀入全檔。
 
 ## 這份指令改了什麼
 
 - 「月亮」幾乎一律預設為主持人或語音介面；只有明確上下文才切成天體或故事角色，不反覆問意思。
 - 一般遊戲由主持人開場、接戲、推進一小步，不用「我等你／我安靜」填空。
+- 故事通常4～7個短句，明確要完整故事可8～12句；知識回答、接一句與停止情境另行縮短。
+- 素材檔含88個素材項、12張情境卡、8段長短示範，候選可挑2～3個相容元素組合。
 - 七類故事靈感自由組合，保留已定設定，近期笑點避免連續重複。
-- 一次只加一個主要變化；孩子能改寫、拒絕或結束。
+- 一般接戲一次只加一個主要變化；完整故事可有2～3個相連步驟，孩子仍能改寫、拒絕或結束。
 - 保留成人主導、語音轉寫確認、安全、自然學習與睡前收尾。
 
 ## 檔案
@@ -23,8 +26,11 @@
 | 檔案 | 用途 |
 | --- | --- |
 | [PROJECT_INSTRUCTIONS.md](PROJECT_INSTRUCTIONS.md) | 唯一正式版本，可一次複製貼上 |
+| [STORY_MATERIALS.txt](STORY_MATERIALS.txt) | 可上傳Project來源的原創素材庫 |
 | [研究與設計](docs/research-and-design.md) | GitHub 一手來源、機制改編、新舊差異、限制與維護方式 |
 | [模擬對話](docs/simulated-dialogues.md) | 26組前後對照及逐例檢查，全部為合成內容 |
+| [故事長度與素材檢查](docs/materials-and-story-length-checks.md) | 7組新增情境，檢查長故事與來源讀取界線 |
+| [Project來源與MCP設計](docs/material-supply-options.md) | 檔案方案、候選抽選、embedding取捨與接入限制 |
 | [CHANGELOG.md](CHANGELOG.md) | 版本變動 |
 | [AGENTS.md](AGENTS.md) | 後續協作維護規則 |
 
