@@ -2,7 +2,7 @@
 
 - 唯一正式專案指令是 PROJECT_INSTRUCTIONS.md；未來新版都在此 repo 以 Git 維護。
 - Plugin完整主持skill由PROJECT_INSTRUCTIONS.md產生；三個專用skill維護於skill-sources，素材仍只維護STORY_MATERIALS.txt。不要直接修改plugins下的產物；改來源後跑build:plugin、check:plugin、npm test與package:plugin。
-- PROJECT_PLUGIN_INSTRUCTIONS.md只供已確認Plugin載入的Project使用，含必要備援；不能宣稱放名字或連結便保證載入。原全文仍是正式規範與語音備援。
+- PROJECT_PLUGIN_INSTRUCTIONS.md只供已確認Plugin載入的Project使用，含必要備援；不能宣稱放名字或連結便保證載入。完整指令已含可選Plugin路由，未驗證語音skill載入時優先貼全文。
 - 使用者已授權此Plugin與repo共同維護。未來改版需更新同一帳號Plugin而非另建，先讀目前release再更新；若僅push但尚未發行，明確說尚未同步。帳號ID及release保留在.local/account-plugin.json，勿把下載後正規化的帳號作者資訊或憑證推公開repo。
 - 安裝、可見skills、MCP帳號路由與手機語音是不同驗證。只確認哪一層就報哪一層；不要為刷新工具自行開新聊天或改全域Plugins權限。
 - 保留成人操作與陪同、台灣繁體中文、約5歲語音遊戲的使用情境。
@@ -16,10 +16,11 @@
 - Worker從STORY_MATERIALS.txt解析素材，避免另維護一份不同步的JSON。工具只接受有限分類與公開ID，不接受孩子逐字對話；續講不抽新主角，睡前或收尾不抽新危機。
 - 程式變更跑npm test與npm run build；創作示例仍標示桌上推演，不以程式測試宣稱模型或手機語音已驗證。
 - repo 維護與遊戲執行分開；來源連結不是自動同步機制。更新完整檔案後才由家長同步 Project。
-- 修改 ChatGPT Project 設定前先給家長看差異並取得確認；repo 內修改依當次使用者授權處理。
+- 修改ChatGPT Project前呈現具體差異；依當次使用者授權處理。家長已明確要求沒有必要討論就直接同步Project、同一Plugin、GitHub及CF，可在此範圍部署；有實質取捨、需新增付費或擴權時先問，不重複索取既有授權。
 - 更新行為時，重看 docs/simulated-dialogues.md 中相關案例，必要時增修；檢查豐富度、重複性、連貫性、尊重與過度主導五面向。
 - 模擬只能標為桌上推演；沒有實際測試證據，不宣稱模型通過率、獨立盲測或語音實測。
 - 若使用文字代理做多輪回歸，保存合成輸入與實際輸出並區分版本，另行評讀。舊新版都未重現問題時照實說，不捏造失敗或提升率；這不等於目標ChatGPT語音模型實測。真實對話僅作本機診斷，不放進公開評測資料。
 - 敘事引導為家長／孩子邀請的可撤下玩法；不以短音節自動啟動訓練。一次只留一個動作或結果，孩子能講就讓位；不把AI擴句算成孩子獨立成果。一般聽故事與共同創作的長度分開。
+- 主持行為優先寫成正向帶法：依可靠內容察覺需要，接住具體感受並改變表演、負擔或輪流。短音節不作情緒分類；先在原故事加戲，再視明確反應換玩法。素材Q區維護示範，CF不新增情緒輸入或兒童資料庫。
 - 真實聊天、兒童個資、私人聊天連結、憑證與本機路徑不得加入公開 repo。所有案例用合成內容，真實觀察只留本機。
 - 同步更新版本與 CHANGELOG.md，保持單一完整指令，不累積互相覆蓋的補丁。不擅自增加執行依賴或自動化服務。
