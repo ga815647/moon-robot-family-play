@@ -1,6 +1,6 @@
 # Plugin架構、安裝與GitHub維護
 
-版本1.4.0，2026-10-18。GitHub是指令、素材、skills與套件結構的維護來源。Plugin是可安裝的發行快照；Cloudflare Worker繼續只提供公開素材。沒有新增LLM呼叫、embedding、資料庫、背景工作或付費服務。
+版本1.4.1，2026-10-18。GitHub是指令、素材、skills與套件結構的維護來源。Plugin是可安裝的發行快照；Cloudflare Worker繼續只提供公開素材。沒有新增LLM呼叫、embedding、資料庫、背景工作或付費服務。
 
 ```mermaid
 flowchart TD
@@ -52,9 +52,9 @@ skills的描述排除一般研究及專案維護，避免在成人討論設定�
 | 完整規則來源 | 當時貼入的全文 | 主skill內包含的當次發行全文 |
 | 素材 | 可另上傳STORY_MATERIALS.txt | 套件已包含素材，讀不到仍可用內建素材 |
 | 未來更新 | 更新repo後重新貼全文 | 更新repo、重建並更新同一Plugin；重開聊天確認已載入新版 |
-| 載入不可用 | 仍按貼入全文玩 | 明說未載入，使用精簡備援；語音持續不可用就改貼完整版本 |
+| 載入不可用 | 仍按貼入全文玩 | 直接使用精簡備援；家長問設定時才說明，語音持續不可用就改貼完整版本 |
 
-這次只準備入口及建立Plugin，沒有改動遠端Project指令或來源上傳。Project精簡入口不是自動安裝、工具授權或強制載入器；不能只留一個GitHub網址。
+1.4.0階段只準備入口及建立Plugin，當時未改動遠端Project指令；1.4.1在家長要求先檢查再完成後已套用入口，見下方記錄。來源上傳未變更。Project精簡入口不是自動安裝、工具授權或強制載入器；不能只留一個GitHub網址。
 
 ### 本次讀到的線上設定
 
@@ -68,13 +68,13 @@ skills的描述排除一般研究及專案維護，避免在成人討論設定�
 | 不自行使用外部工具 | 仍禁止自行外部操作；成人啟用且工具實際提供時才可抽公開素材，不傳兒童逐字對話 |
 | 原本已有成人陪同、安全、拒絕、安靜及主講規則 | 保留並強化；載入失敗仍有必要備援規則 |
 
-專案目前採「僅限專案」記憶，介面提示不能使用Work。本方案的目標入口是在Chat中選用Plugin，不改記憶、空間權限或其他全域設定；仍需在該Project的新聊天確認skills是否可載入。已把可直接替換的入口檔準備好，依家長先前要求，在確認差異前不改線上設定。
+專案目前採「僅限專案」記憶，介面提示不能使用Work。本方案的目標入口是在Chat中選用Plugin，不改記憶、空間權限或其他全域設定；仍需在該Project的新聊天確認skills是否可載入。當時已把入口檔及差異交付，未立即修改；家長後續要求先查空轉再完成，1.4.1已完成檢查及入口替換。
 
 ## 帳號狀態與使用方式
 
 1.4.0已建立為個人私人Plugin；帳號Plugin頁面顯示在「已安裝」清單，內容列出4個skills與1個MCP伺服器。這與把原始碼放在public GitHub不同；沒有送審公開Plugin目錄，也沒有開放帳號內其他資料。
 
-家長可在Plugin頁面或已安裝清單開啟「月亮機器人｜親子遊戲」。在既有Project內另開一個聊天，用@選此Plugin或moon-play-host，再請它確認載入版本1.4.0；接著才測語音。沒有必要另建專案或把孩子對話傳回GitHub。
+家長可在Plugin頁面或已安裝清單開啟「月亮機器人｜親子遊戲」。在既有Project內另開一個聊天，用@選此Plugin或moon-play-host，再請它確認載入版本1.4.1；接著才測語音。沒有必要另建專案或把孩子對話傳回GitHub。
 
 查看上方差異後，由家長選擇是否用PROJECT_PLUGIN_INSTRUCTIONS.md全文取代Project原指令；不要同時堆入兩份互相重複的入口。尚未確認手機語音載入時，保留完整模式。切換入口不需要對所有已安裝Plugins擴權。
 
@@ -110,3 +110,7 @@ Git提交與更新帳號Plugin是兩個步驟。只有repo改了、Plugin未更�
 [Plugins官方說明](https://learn.chatgpt.com/docs/plugins)確認Plugin可含skills與MCP、支援手機Chat／Work，並說明安裝後的新聊天載入方式；[Skills說明](https://learn.chatgpt.com/docs/skills-and-plugins)說明按需求選用，不保證把名字寫進Project就每次載入。
 
 [官方套件文件](https://developers.openai.com/plugins/build/plugins)提供manifest、MCP與repo marketplace格式；[Project文件](https://learn.chatgpt.com/docs/projects)說明跨聊天共用指令與來源。這些不等於已驗證每一種手機語音體驗。[Voice文件](https://learn.chatgpt.com/docs/features/voice)描述的桌面及配對iOS能力，不作為一般手機語音支援這套Plugin的保證。
+
+## 1.4.1主持空轉修正
+
+完整規範、精簡備援、共同敘事／睡前skills及素材示範已同步修正，並更新同一帳號Plugin；四個skills及MCP已回讀核對。18組多輪合成案例與8組備援情境由不同文字代理生成，另由一個代理評讀；前後各70輪，詳見[實際輸出與限制](hosting-idle-regression.md)。這不代表手機語音實測，Project入口已備份原文後套用1.4.1，重新開啟設定核對全文相符；記憶與空間權限保留，手機語音載入仍待實測。

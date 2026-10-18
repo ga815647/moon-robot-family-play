@@ -7,9 +7,9 @@
 1. 先看[Plugin架構與入口差異](docs/plugin-architecture.md)。已安裝且確認當前聊天能載入skills時，可用[精簡Project入口](PROJECT_PLUGIN_INSTRUCTIONS.md)；尚未確認手機語音支援時，使用[完整專案指令](PROJECT_INSTRUCTIONS.md)。
 2. Plugin包含主持、共同敘事、睡前及家長回顧四個skills，以及現有唯讀素材MCP。由家長在新聊天選用Plugin，再開始遊戲；可以說「月亮，開場吧」。
 3. Plugin內已附素材。完整指令模式可另上傳[STORY_MATERIALS.txt](STORY_MATERIALS.txt)；未讀到仍可使用內建小素材庫。
-4. 未來在此repo維護來源，產生並更新同一Plugin；原始碼、套件、打包檢查均可追溯。沒有改動遠端Project設定，切換入口仍由家長查看差異後處理。
+4. 未來在此repo維護來源，產生並更新同一Plugin；原始碼、套件、打包檢查均可追溯。本輪依家長要求先完成空轉檢查後，已套用1.4.1精簡入口並重新開啟設定核對；原設定保留本機備份，手機語音載入仍待實測。
 
-目前指令、素材說明與Plugin版本：1.4.0，2026年10月18日。GitHub是維護來源，安裝Plugin是發行快照；push不會自動更新已安裝Plugin或既有聊天。基本遊戲不依賴即時搜尋、自行架設RAG或付費附加服務。[Worker素材服務](docs/worker.md)仍為1.2.0、相同148項卡片；語音對話中的Plugin載入仍需實測，不能只靠連結宣稱生效。
+目前指令、素材說明與Plugin版本：1.4.1，2026年10月18日。GitHub是維護來源，安裝Plugin是發行快照；push不會自動更新已安裝Plugin或既有聊天。基本遊戲不依賴即時搜尋、自行架設RAG或付費附加服務。[Worker素材服務](docs/worker.md)仍為1.2.0、相同148項卡片；語音對話中的Plugin載入仍需實測，不能只靠連結宣稱生效。
 
 ## 這份指令改了什麼
 
@@ -22,6 +22,7 @@
 - 一般接戲一次只加一個主要變化；完整故事可有2～3個相連步驟，孩子仍能改寫、拒絕或結束。
 - 保留成人主導、語音轉寫確認、安全、自然學習與睡前收尾。
 - 加入家長可啟用的「帶他說故事」：示範、接詞擴句、留一個動作或結果；孩子能講就縮短讓位，不逼完整句、不連續追問。素材N區另有8組接話示範。
+- 防止「我收好／不接話／繼續聽」換詞循環：安靜只由人類明確要求建立；主持回合要有回答或具體進展，真正安靜時不朗讀狀態，直接提問只答該題。
 
 ## 檔案
 
@@ -41,6 +42,7 @@
 | [生成器整合案例](docs/generator-integration-checks.md) | 角色綁定、骨架與笑點去重的合成推演 |
 | [幼兒敘事研究評估](docs/narrative-scaffolding-evaluation.md) | 5項研究／原型的證據、反證與採用界線 |
 | [敘事引導檢查](docs/narrative-scaffolding-checks.md) | 16組合成對照及五面向檢查 |
+| [主持空轉回歸檢查](docs/hosting-idle-regression.md) | 合成多輪、舊話語污染、停止與單次邀請的文字代理測試 |
 | [CHANGELOG.md](CHANGELOG.md) | 版本變動 |
 | [AGENTS.md](AGENTS.md) | 後續協作維護規則 |
 

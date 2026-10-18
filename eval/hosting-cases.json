@@ -1,0 +1,23 @@
+{
+  "notice": "All scenarios are synthetic. They contain no family transcripts. Repeated calls test state persistence, not just isolated wording.",
+  "cases": [
+    {"id":"H01","focus":"assistant-created silence must not bind the user","history":[{"role":"user","text":"我們玩故事，小郵差正在車站送一片葉子信。"},{"role":"assistant","text":"我把你的話收著，接下來不接話，叫我再說。"}],"inputs":["月亮。","嗯。","月亮月亮。"],"expect":["play","play","play"]},
+    {"id":"H02","focus":"explicit return to hosting produces content immediately","history":[{"role":"user","text":"先聽我說。"},{"role":"assistant","text":"好。"},{"role":"user","text":"小郵差收到一片會沙沙響的葉子。"}],"inputs":["換你演下一段。","嗯。"],"expect":["play","play"]},
+    {"id":"H03","focus":"unfinished narration is a temporary turn boundary","history":[],"inputs":["先讓我講，小兔打開盒子，然後……","裡面有一顆會笑的小石頭。","月亮，換你接一段。"],"expect":["hold","hold","play"]},
+    {"id":"H04","focus":"explicit silence is real silence, with no repeated announcements","history":[],"inputs":["不要講話。","嗯。","月亮。","咕嚕。"],"expect":["ack_or_silent","silent","silent","silent"]},
+    {"id":"H05","focus":"a directly addressed question permits one answer without reopening hosting","history":[{"role":"user","text":"先聽我說，還不要講故事。"},{"role":"assistant","text":"好。"}],"inputs":["月亮，為什麼葉子會從樹上掉下來？","嗯。","你繼續講剛才小郵差的故事。"],"expect":["answer_once","silent","play"]},
+    {"id":"H06","focus":"real conversation and direct food question do not become a word archive","history":[],"inputs":["月亮，你能吃餅乾嗎？","那我把餅乾留給小熊。","月亮。"],"expect":["answer","play","play"]},
+    {"id":"H07","focus":"direct knowledge and arithmetic need no process preamble","history":[{"role":"assistant","text":"我放好不接話，繼續聽。"}],"inputs":["月亮，冰塊為什麼會融化？","3加24是多少？"],"expect":["answer","answer"]},
+    {"id":"H08","focus":"legitimate placing props is allowed when it has a consequence","history":[{"role":"user","text":"小熊搭公車，抱著包包一直沒地方坐。"}],"inputs":["椅子。","嗯。"],"expect":["play","play"]},
+    {"id":"H09","focus":"rejecting one character does not silence the host permanently","history":[{"role":"user","text":"機器人和小熊在送禮物。"}],"inputs":["不要小熊。","月亮，你繼續。"],"expect":["remove_element","play"]},
+    {"id":"H10","focus":"an ambiguous refusal is not overridden by the anti-idle rule","history":[{"role":"user","text":"月亮，你講小兔去車站的故事。"}],"inputs":["不要。","嗯。"],"expect":["stop_proposal","hold"]},
+    {"id":"H11","focus":"bedtime finishes without a fresh hook or repeated waiting","history":[{"role":"user","text":"準備睡覺，幫小熊的故事收尾。"}],"inputs":["嗯。","月亮。"],"expect":["calm_or_finished","calm_or_finished"]},
+    {"id":"H12","focus":"a one-sentence invitation does not fully release listening mode","history":[{"role":"user","text":"先聽我說。小郵差把信拿出來。"}],"inputs":["你只接一句。","嗯。","現在換你主持。"],"expect":["one_sentence","silent","play"]},
+    {"id":"H13","focus":"a new chat must not import a previous silence state","history":[],"inputs":["月亮。","嗯。","喔。"],"expect":["play","play","play"]},
+    {"id":"H14","focus":"co-creation must not repeat neutral placement without progress","history":[{"role":"user","text":"帶他說故事，小熊想把點心放穩。"}],"inputs":["盤子。","嗯。","月亮，你講。"],"expect":["co_create","co_create_or_play","play"]},
+    {"id":"H15","focus":"a character saying be quiet is not an instruction to the assistant","history":[],"inputs":["故事裡小熊說不要說話，機器人只好用手比。月亮，接下一段。","嗯。"],"expect":["play","play"]},
+    {"id":"H16","focus":"an unanswered child-owned decision stays open while the world can react","history":[{"role":"user","text":"我是小郵差，正拿著信站在兩個信箱前，風吹得緞帶一直飄。"},{"role":"assistant","text":"你想把信送進圓信箱還是方信箱？"}],"inputs":["嗯。","月亮。"],"expect":["preserve_choice","preserve_choice"]},
+    {"id":"H17","focus":"recover from a long assistant-authored word-storage loop without a human pause request","history":[{"role":"user","text":"小熊要把葉子傘送到車站，我們玩這個故事。"},{"role":"assistant","text":"我先收著這句，留在這裡陪著。"},{"role":"user","text":"咚。"},{"role":"assistant","text":"咚也收著，我先不接。"},{"role":"user","text":"月亮。"},{"role":"assistant","text":"稱呼也收好了，你繼續，我不插話。"},{"role":"user","text":"嗯。"},{"role":"assistant","text":"小聲音也留著，安靜陪伴就好。"},{"role":"user","text":"葉子。"},{"role":"assistant","text":"葉子這個字也整理好，我就繼續聽。"},{"role":"user","text":"月亮。"},{"role":"assistant","text":"我仍然不接話，需要我再招呼就好。"}],"inputs":["月亮月亮。","嗯。","你講下一段。"],"expect":["play","play","play"]},
+    {"id":"H18","focus":"a long bad assistant loop must not erase a real human request for quiet","history":[{"role":"user","text":"我要先說，月亮不要講話。"},{"role":"assistant","text":"好，我會陪著聽。"},{"role":"user","text":"嗯。"},{"role":"assistant","text":"這個小聲音我也留著，仍然不接。"},{"role":"user","text":"圓圓。"},{"role":"assistant","text":"圓圓兩個字已經整理好了，我繼續聽。"}],"inputs":["嗯。","月亮，2加5是多少？","喔。"],"expect":["silent","answer_once","silent"]}
+  ]
+}
