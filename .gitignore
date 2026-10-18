@@ -1,0 +1,8 @@
+# 家庭資料與臨時檔不公開
+private/
+.local/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
